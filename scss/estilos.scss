@@ -27,7 +27,9 @@ section {
 }
 
 .btn-outline-success {
-    color: grey !important;
+    color: black !important;
+    font-family: $tipografia-general;
+    
 }
 
 .btn-outline-success:hover {
@@ -37,6 +39,7 @@ section {
 .nav-link {
     color: $color-secundario !important;
     font-size: 20px !important;
+    font-family: $tipografia-general;
 }
 
 .form-control {
@@ -47,11 +50,13 @@ section {
 #sobreMi,
 #nuestrasRecetas {
     padding: 30px 60px 30px 60px;
+    font-family: $tipografia-general !important;
 }
 
 h3 {
     text-align: center;
     color: $color-secundario;
+    font-family: $tipografia-general;
 }
 
 #formulario {
@@ -114,6 +119,7 @@ footer {
     p {
         flex-basis: 80%;
         font-size: 16px;
+        font-family: $tipografia-general;
     }
 
     li {
