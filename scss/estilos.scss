@@ -1,4 +1,16 @@
 @import 'variables';
+@mixin formulario-texto{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border: 1px dashed $color-secundario;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    resize: vertical
+}
+
 
 * {
     margin: 0;
@@ -67,20 +79,16 @@ h3 {
     margin: auto;
 
 }
-
-input[type=text],
-select,
-textarea {
-    width: 300px;
-    height: 50px;
-    padding: 10px;
-    border: 1px dashed $color-secundario;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 20px;
-    resize: vertical
+input[type=text]{
+    @include formulario-texto;
 }
+select{
+    @include formulario-texto;
+}
+textarea{
+    @include formulario-texto;
+}
+
 
 input[type=submit] {
     border-radius: 10px;
