@@ -27,17 +27,26 @@ section {
 }
 
 .btn-outline-success {
-    color: black !important;
+    color: grey !important;
 }
-.btn-outline-success:hover{
-    background-color:$color-secundario !important;
+
+.btn-outline-success:hover {
+    background-color: $color-secundario !important;
+}
+
+.nav-link {
+    color: $color-secundario !important;
+    font-size: 20px !important;
+}
+
+.form-control {
+    border: dotted $color-secundario !important;
+    background-color: $color-primario !important;
 }
 
 #sobreMi,
 #nuestrasRecetas {
     padding: 30px 60px 30px 60px;
-
-
 }
 
 h3 {
