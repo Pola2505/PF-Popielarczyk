@@ -11,21 +11,27 @@ body {
     background-color: $color-primario !important;
 }
 
+section {
+    nav {
+        background-color: $color-primario !important;
 
-nav {
-    background-color: $color-primario !important;
+        div {
+            margin: auto;
+            padding: auto;
+        }
 
-    div {
-        margin: auto;
-        padding: auto;
+        img {
+            border-radius: 90px;
+        }
     }
-
-    img {
-        border-radius: 90px;
-    }
-
 }
 
+.btn-outline-success {
+    color: black !important;
+}
+.btn-outline-success:hover{
+    background-color:$color-secundario !important;
+}
 
 #sobreMi,
 #nuestrasRecetas {
