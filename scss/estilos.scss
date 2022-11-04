@@ -10,6 +10,12 @@
     margin-bottom: 20px;
     resize: vertical
 }
+@mixin titulos{
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px 5px 10px;  
+}
 
 
 * {
@@ -46,6 +52,7 @@ section {
 
 .btn-outline-success:hover {
     background-color: $color-secundario !important;
+    color:white !important;
 }
 
 .nav-link {
@@ -176,12 +183,31 @@ h4 {
 }
 
 #h4Centrado {
-    display: block;
-    text-align: center;
-    margin: auto;
-    padding: 20px 10px 5px 10px;
+    @include titulos;
+    color:$color-secundario !important;
 }
-
+#tituloEbooks{
+    @include titulos;
+    color:$color-secundario !important;
+}
+.sobreEbooks{
+    display: block;
+    padding:20px;
+    margin:20px;
+    font-family: $tipografia-general;
+}
+.parrafoEbooks{
+    border: dotted $color-secundario !important;
+    border-radius:70px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding:25px;
+    text-align:center;
+    
+}
 .slide {
     margin-top: 10px;
 
@@ -192,7 +218,7 @@ h4 {
 }
 
 
-#h4Centrado {
+#h4Centrado, #tituloEbooks {
     -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
     animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 3s both;
 }
