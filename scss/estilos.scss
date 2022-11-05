@@ -173,7 +173,9 @@ select:hover {
     margin: auto;
 
 }
-
+.ebookHover:hover{
+    width:300px !important;
+}
 h4 {
     i {
         color: #6aa46c;
@@ -195,7 +197,7 @@ h4 {
     padding:20px;
     margin:20px;
     font-family: $tipografia-general;
-}
+    }
 .parrafoEbooks{
     border: dotted $color-secundario !important;
     border-radius:70px;
@@ -207,6 +209,11 @@ h4 {
     padding:25px;
     text-align:center;
     
+}
+
+#todosEbooks{
+    margin:10px 10px 30px 10px;
+    padding:10px;
 }
 .slide {
     margin-top: 10px;
