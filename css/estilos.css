@@ -275,7 +275,7 @@ select:hover {
 }
 
 /* line 242, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
-#h4Centrado,
+#h1Centrado,
 #tituloEbooks,
 #tituloInicio {
   -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) 2s both;
