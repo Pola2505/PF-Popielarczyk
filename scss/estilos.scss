@@ -9,7 +9,8 @@
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 20px;
-    resize: vertical
+    resize: vertical;
+    font-family:$tipografia-general;
 }
 
 @mixin titulos {
@@ -75,7 +76,7 @@ section {
     font-family: $tipografia-general !important;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
     color: $color-secundario;
     font-family: $tipografia-general;
