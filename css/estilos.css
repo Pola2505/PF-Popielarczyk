@@ -1,71 +1,71 @@
-/* line 21, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 23, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 28, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 30, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 body {
   background-color: #f7f2dd !important;
 }
 
-/* line 33, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 35, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 section nav {
   background-color: #f7f2dd !important;
 }
 
-/* line 36, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 38, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 section nav div {
   margin: auto;
   padding: auto;
 }
 
-/* line 41, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 43, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 section nav img {
   border-radius: 90px;
 }
 
-/* line 47, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 49, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 .btn-outline-success {
   color: black !important;
   font-family: "Montserrat", sans-serif;
 }
 
-/* line 53, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 55, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 .btn-outline-success:hover {
   background-color: #6d8666 !important;
   color: white !important;
 }
 
-/* line 58, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 60, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 .nav-link {
   color: #6d8666 !important;
   font-size: 20px !important;
   font-family: "Montserrat", sans-serif;
 }
 
-/* line 64, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 66, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 .form-control {
   border: dotted #6d8666 !important;
   background-color: #f7f2dd !important;
 }
 
-/* line 69, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 71, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 #sobreMi,
 #nuestrasRecetas {
   padding: 30px 60px 30px 60px;
   font-family: "Montserrat", sans-serif !important;
 }
 
-/* line 75, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 77, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 h3 {
   text-align: center;
   color: #6d8666;
   font-family: "Montserrat", sans-serif;
 }
 
-/* line 81, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 83, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 #formulario {
   display: flex;
   justify-content: center;
@@ -74,7 +74,7 @@ h3 {
   margin: auto;
 }
 
-/* line 89, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 92, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 input[type=text] {
   width: 300px;
   height: 50px;
@@ -87,7 +87,7 @@ input[type=text] {
   resize: vertical;
 }
 
-/* line 92, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 96, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 select {
   width: 300px;
   height: 50px;
@@ -100,7 +100,7 @@ select {
   resize: vertical;
 }
 
-/* line 95, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 100, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 textarea {
   width: 300px;
   height: 50px;
@@ -113,7 +113,7 @@ textarea {
   resize: vertical;
 }
 
-/* line 100, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 105, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 input[type=submit] {
   border-radius: 10px;
   border: 1px solid #6d8666;
@@ -123,12 +123,12 @@ input[type=submit] {
   height: 40px;
 }
 
-/* line 110, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 115, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 input[type=submit]:hover {
   background-color: #465f47;
 }
 
-/* line 114, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 119, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 #formulario {
   border-radius: 5px;
   background-color: #d5e8d4;
@@ -136,14 +136,14 @@ input[type=submit]:hover {
   margin: auto;
 }
 
-/* line 121, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 126, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 footer {
   display: flex;
   padding: 10px;
   background-color: #adc9ae;
 }
 
-/* line 126, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 131, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 footer ul {
   display: flex;
   gap: 10px;
@@ -152,64 +152,64 @@ footer ul {
   text-decoration: none;
 }
 
-/* line 134, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 139, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 footer p {
   flex-basis: 80%;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
 }
 
-/* line 140, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 145, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 footer li {
   flex-grow: 1;
 }
 
-/* line 144, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 149, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 footer a {
   color: darkslategrey;
   font-size: 20px;
 }
 
-/* line 149, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 154, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 footerhover {
   color: #465f47;
 }
 
-/* line 155, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 160, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 select option {
   background-color: #6d8666 !important;
   color: white;
 }
 
-/* line 161, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 166, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 select:hover {
   color: white;
   background: #465f47;
 }
 
-/* line 166, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 171, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 .logo:hover {
   height: 120px;
   width: auto;
 }
 
-/* line 171, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 176, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 #img__logo {
   display: block;
   margin: auto;
 }
 
-/* line 176, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 182, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 .ebookHover:hover {
   width: 300px !important;
 }
 
-/* line 180, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 187, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 h4 i {
   color: #6aa46c;
 }
 
-/* line 187, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 194, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 #h4Centrado {
   display: block;
   text-align: center;
@@ -218,8 +218,9 @@ h4 i {
   color: #6d8666 !important;
 }
 
-/* line 191, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
-#tituloEbooks {
+/* line 199, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+#tituloEbooks,
+#tituloInicio {
   display: block;
   text-align: center;
   margin: auto;
@@ -227,16 +228,18 @@ h4 i {
   color: #6d8666 !important;
 }
 
-/* line 195, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
-.sobreEbooks {
+/* line 205, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+.sobreEbooks,
+.sobreNutricioso {
   display: block;
   padding: 20px;
   margin: 20px;
   font-family: "Montserrat", sans-serif;
 }
 
-/* line 201, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
-.parrafoEbooks {
+/* line 213, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+.parrafoEbooks,
+.parrafoInicio {
   border: dotted #6d8666 !important;
   border-radius: 70px;
   display: block;
@@ -248,40 +251,42 @@ h4 i {
   text-align: center;
 }
 
-/* line 214, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 226, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+.parrafoInicio:hover {
+  border: dotted #dd991c !important;
+  border-radius: 70px;
+}
+
+/* line 231, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 #todosEbooks {
   margin: 10px 10px 30px 10px;
   padding: 10px;
 }
 
-/* line 218, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 235, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+.card-title {
+  color: #6d8666 !important;
+}
+
+/* line 239, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 .slide {
   margin-top: 10px;
 }
 
-/* line 221, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+/* line 242, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
 .slide img {
   height: 65vh;
   object-fit: cover;
 }
 
-/* line 228, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
-#h4Centrado, #tituloEbooks {
-  -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) 3s both;
-  animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) 3s both;
+/* line 249, ../../PreEntrega3-Popielarczyk/PreEntrega3-Popielarczyk/scss/estilos.scss */
+#h4Centrado,
+#tituloEbooks,
+#tituloInicio {
+  -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) 2s both;
+  animation: tracking-in-expand 5s cubic-bezier(0.215, 0.61, 0.355, 1) 2s both;
 }
 
-/* ----------------------------------------------
- * Generated by Animista on 2022-9-29 22:0:58
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-/**
- * ----------------------------------------
- * animation tracking-in-expand
- * ----------------------------------------
- */
 @-webkit-keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
