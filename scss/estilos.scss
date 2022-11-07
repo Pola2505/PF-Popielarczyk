@@ -183,15 +183,8 @@ select:hover {
     width: 300px !important;
 }
 
-h4 {
-    i {
-        color: #6aa46c;
 
-
-    }
-}
-
-#h4Centrado {
+#h1Centrado {
     @include titulos;
     color: $color-secundario !important;
 }
