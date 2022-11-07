@@ -75,7 +75,7 @@ section {
     font-family: $tipografia-general !important;
 }
 
-h3 {
+h1 {
     text-align: center;
     color: $color-secundario;
     font-family: $tipografia-general;
@@ -242,7 +242,8 @@ select:hover {
 
 #h1Centrado,
 #tituloEbooks,
-#tituloInicio {
+#tituloInicio 
+{
     -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
     animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
 }
