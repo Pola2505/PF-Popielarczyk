@@ -10,7 +10,7 @@
     margin-top: 6px;
     margin-bottom: 20px;
     resize: vertical;
-    font-family:$tipografia-general;
+    font-family: $tipografia-general;
 }
 
 @mixin titulos {
@@ -26,11 +26,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-
+}
 
 body {
     background-color: $color-primario !important;
+}
+
+.container {
+    max-width: 1920px !important;
+    width: 100% !important;
 }
 
 header {
@@ -76,7 +80,8 @@ header {
     font-family: $tipografia-general !important;
 }
 
-h1, h3 {
+h1,
+h3 {
     text-align: center;
     color: $color-secundario;
     font-family: $tipografia-general;
@@ -116,7 +121,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #465f47;
-    color:white !important;
+    color: white !important;
 }
 
 #formulario {
@@ -221,16 +226,17 @@ select:hover {
     text-align: center;
 
 }
-.parrafoInicio:hover{
+
+.parrafoInicio:hover {
     border: dotted rgb(221, 153, 28) !important;
     border-radius: 70px;
-    }
+}
 
 #todosEbooks {
-    margin: 10px 10px 30px 10px;
     padding: 10px;
 }
-.card-title{
+
+.card-title {
     color: $color-secundario !important;
 }
 
@@ -246,8 +252,7 @@ select:hover {
 
 #h1Centrado,
 #tituloEbooks,
-#tituloInicio 
-{
+#tituloInicio {
     -webkit-animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
     animation: tracking-in-expand 5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
 }
